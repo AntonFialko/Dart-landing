@@ -13,7 +13,6 @@
 
 .container111{
     font-style: bold;
-    color: white;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
@@ -27,16 +26,77 @@
 }
 
 .signup{
-    color: white;
     border:2px solid white;
     width: 80px;
     text-align: center;
     border-radius: 2px;
-    height: 35px;
+    height: 30px;
     margin-top: 20px;
+    user-select: none;
 }
 
 .container11{
     display: flex;
     justify-content: space-around;
+}
+
+.signup:hover{
+    color: black;
+    border:2px solid black;
+}
+
+.bigsign{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.container121{
+    width: 30%;
+}
+
+.cw{
+    color: white;
+}
+
+.b1{
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid white;
+    border-radius: 5px;
+}
+
+.b1:hover{
+    color: white;
+    background-color: #082135;
+    border:2px solid #082135;
+    user-select: none;
+}
+
+.cdb{
+    color: #082135;
+    font-weight: bold;
+}
+
+.container1211{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.container12{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 150px;
+}
+
+.img2{
+    height: 300px;
+    width: auto;
+    align-self: center;
 }
