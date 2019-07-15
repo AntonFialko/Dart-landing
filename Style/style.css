@@ -68,6 +68,7 @@
     align-items: center;
     border:2px solid white;
     border-radius: 5px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
 }
 
 .b1:hover{
@@ -75,6 +76,7 @@
     background-color: #082135;
     border:2px solid #082135;
     user-select: none;
+    box-shadow: 0px 0px 0px white;
 }
 
 .cdb{
@@ -99,4 +101,158 @@
     height: 300px;
     width: auto;
     align-self: center;
+    border:2px solid #082135;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.a2{
+    font-size: 48px;
+}
+
+.a3{
+    font-size: 28px;
+}
+
+.cg{
+    color: #b0bec5;
+}
+
+.container2{
+    width: 30%;
+    text-align: center;
+}
+
+.mt5{
+    margin-top: 5%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 24px;
+    margin: 0px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.b2{
+    background-color: #1de9b6;
+    color: white;
+    border:2px solid #1de9b6;
+}
+
+.container3{
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sq1{
+    background-color: #80d8ff;
+}
+
+.sq2{
+    background-color: #82b1ff;
+}
+
+.sq3{
+    background-color: #b388ff;
+}
+
+.sq4{
+    background-color: #ea80fc;
+}
+
+
+.fwb{
+    font-weight: bold;
+}
+
+.square{
+    width: 25%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.img4{
+    height: 60%;
+    margin-left: -50px;
+}
+
+
+.whiteblock{
+    box-shadow: 0.4em 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    height: 220px;
+    width: 800px;
+}
+
+.img5{
+    width: 20px;
+    height: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-self: center;
+}
+
+.asc{
+    margin-top: 13px;
+}
+
+.container511{
+    display: flex;
+    flex-direction: row;
+}
+
+.container51{
+    justify-content: space-between;
+    display: flex;
+}
+
+.container52{
+    display: flex;
+}
+
+.img6{
+    border:2px solid white;
+    border-radius: 5px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.container52 p{
+margin-left: 10px;
+}
+
+.smallwb{
+    height: 50px;
+    margin-top: 50px;
+    width: 800px;
+    box-shadow: 0.4em 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.container6{
+    background-color: #061e37;
+    height: 300px;
+    width: 100%;
 }
